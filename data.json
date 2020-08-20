@@ -1,22 +1,13 @@
 {
   "instructors": [
     {
-      "avatar_url": "http://google.com",
-      "birth": 755568000000,
-      "createdAt": 1597801439468,
+      "avatar_url": "http://www.github.com/claudiojrsx",
+      "birth": 753062400000,
+      "createdAt": 1597948264282,
       "id": 1,
       "gender": "M",
-      "services": "Karate, Crossfit, Parkour",
-      "name": "Batman"
-    },
-    {
-      "avatar_url": "http://youtube.com.br",
-      "birth": 787104000000,
-      "createdAt": 1597803347915,
-      "id": 2,
-      "gender": "F",
-      "services": "Jiu-Jitsu",
-      "name": "Wonder Woman"
+      "services": "Tecnologia da Informação",
+      "name": "Claudio Ramalho"
     }
   ]
 }
