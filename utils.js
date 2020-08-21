@@ -4,10 +4,10 @@ module.exports = {
     const birthDate = new Date(timestamp)
 
     // 2020 - 1993 = 26
-    let age = today.getFullYear() - birthDate.getFullYear()
-    const month = today.getMonth() - birthDate.getMonth()
+    let age = today.getUTCFullYear() - birthDate.getUTCFullYear()
+    const month = today.getUTCMonth() - birthDate.getUTCMonth()
 
-    if (month < 0 || month == 0 && today.getDate() < birthDate.getDate) {
+    if (month < 0 || month == 0 && today.getUTCDate() < birthDate.getUTCDate) {
       age = age - 1
     }
 

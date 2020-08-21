@@ -17,9 +17,6 @@ nunjucks.configure("views", {
   noCache: true
 });
 
-process.env.TZ = 'America/Fortaleza';
-console.log(new Date().getTimezoneOffset())
-
 server.listen(PORT, function () {
   console.log("O servidor está online.")
 });

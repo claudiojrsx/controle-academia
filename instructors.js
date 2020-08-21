@@ -16,7 +16,7 @@ exports.show = function(req, res) {
     ...foundInstructor,
     age: age(foundInstructor.birth),
     services: foundInstructor.services.split(","),
-    createdAt: new Intl.DateTimeFormat("pt-BR").format(foundInstructor.createdAt),
+    created_at: new Intl.DateTimeFormat("pt-BR").format(foundInstructor.created_at),
   }
 
   return res.render("instructors/show", { instructors })
@@ -34,11 +34,11 @@ exports.post = function (req, res) {
   let {avatar_url, birth, gender, services, name} = req.body
 
   birth = Date.parse(birth)
-  const createdAt = Date.now()
+  const created_at = Date.now()
   const id = Number(data.instructors.length + 1)
 
   data.instructors.push({
-    avatar_url, birth, createdAt, id, gender, services, name
+    avatar_url, birth, created_at, id, gender, services, name
   })
 
   fs.writeFile('data.json', JSON.stringify(data, null, 2), function (err) {
