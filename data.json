@@ -17,6 +17,15 @@
       "gender": "M",
       "services": "crossfit, parkour, musculação, barra",
       "name": "Claudio Ramalho"
+    },
+    {
+      "avatar_url": "https://source.unsplash.com/collection/3652543/800x800",
+      "birth": 753062400000,
+      "created_at": 1599682441020,
+      "id": 3,
+      "gender": "M",
+      "services": "Crossfit, Natação",
+      "name": "Claudio Ramalho"
     }
   ]
 }

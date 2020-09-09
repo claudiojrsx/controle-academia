@@ -169,7 +169,8 @@ input::placeholder {
   font-family: 'Roboto', sans-serif;
 }
 
-button[type="submit"] {
+button[type="submit"],
+a.button {
   width: 100%;
   padding: 8px 32px;
   background-color: #e4431f;
@@ -180,4 +181,11 @@ button[type="submit"] {
   text-transform: uppercase;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.250);
   box-shadow: 2px 2px 15px rgb(0, 0, 0, 0.3);
+}
+
+a.button {
+  display:block;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
 }
